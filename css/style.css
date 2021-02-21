@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+header {
+  background: #f5d000;
+  color: white;
+  text-align: center;
+  padding-top: 64px; 
+}
+
+header h1,
+header p {
+  margin: 0;
+}
+
+header img {
+  width: 280px;
+  vertical-align: bottom;
+}
+
+.btn {
+  text-decoration: none;
+  background: white;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.feature img {
+  width: 100%;
+}
+
+.feature > h1 {
+  text-align: center;
+  padding: 64px;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 32px;
+}
+
+.container p {
+  line-height: 1.8;
+}
+
+.feature section  {
+  padding-bottom: 64px;
+}
+
+.members {
+  background: #f2f2f3;
+}
+
+.members h1 {
+  text-align: center;
+  padding: 64px;
+  font-weight: normal;
+}
+
+.members ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.members img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.members p {
+  font-size: 20px;
+}
+
+.members li {
+  padding-bottom: 64px;
+  width: 250px;
+}
+
+.call-to-action {
+  background: #f59a00;
+  color: white;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.call-to-action h1 {
+  font-weight: normal;
+}
+
+.call-to-action .btn {
+  margin: 0 auto;
+  }
+
+footer {
+  padding: 64px 0;
+  background: #323135;
+  color: #98969c;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  header .container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  header .info {
+    width: 60%;
+    align-self: center;
+  }
+
+  header .pic{
+    width: 40%;
+  }
+}
+
+.feature .container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.feature section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.feature .pic {
+  width: 50%;
+}
+
+.feature .info {
+  width: calc(50% - 32px);
+}
+
+.members ul {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
